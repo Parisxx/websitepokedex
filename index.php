@@ -23,7 +23,9 @@
 </head>
 <body>
 <div class="header">
-    <img src="./fotos/pokeball.png"  class="pokeball" alt="pokeball">
+    <a href="index.php">
+      <img src="./fotos/pokeball.png"  class="pokeball" alt="pokeball">
+    </a>
       <h1 id="headertext">Pokedex</h1> 
      </div>
 
@@ -33,6 +35,8 @@
      while ($data = $stmt->fetch())
       {
 
+           echo "<div class='column'>";
+            echo "<br>";
             echo "<h2>". $data['entry'] . "</h2>";
             echo "<h1>" . $data['name'] ."</h4>";
             echo "<h3> " . $data['type'] . "</h3>";
@@ -40,6 +44,10 @@
             echo "<a href='information.php'>";
             echo "<img src='./fotos/" . $data['photo'] . "' width='300' />";
             echo "</a>"; 
+            echo "<br>";
+            echo "<br>";
+            echo "</div>";
+
       }
     ?>
     

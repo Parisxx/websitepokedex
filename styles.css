@@ -48,5 +48,18 @@ body {
     height: auto;
     padding: 10px;
     margin: 30px 150px 30px 150px;
-    column-count: 3;
 }
+
+
+.column {
+    margin-left: 42px;
+    float: left;
+    width: 350px;
+  }
+
+.pokemon:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  

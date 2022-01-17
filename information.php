@@ -23,30 +23,31 @@
 </head>
 <body>
 <div class="header">
-    <img src="./fotos/pokeball.png"  class="pokeball" alt="pokeball">
+   <a href="index.php">
+      <img src="./fotos/pokeball.png"  class="pokeball" alt="pokeball">
+    </a>
       <h1 id="headertext">Pokedex</h1> 
      </div>
-     <br>
-     <p>Informatie
-     <div class="pokemon">
+
+<div class="pokemon">
+
     <?php
-    while ($data = $stmt->fetch())
+     while ($data = $stmt->fetch())
       {
-         
-            echo "<h2>". $data['entry'] . "</h2>";
-            echo "<h1>" . $data['name'] ."</h4>";
-            echo "<h3> " . $data['type'] . "</h3>";
+        echo "<h2>". $data['entry'] . "</h2>";
+        echo "<h1>" . $data['name'] ."</h1>";
+        echo "<img src='./fotos/" . $data['photo'] . "' width='300' />";
+        echo "<h3> " . $data['type'] . "</h3>";
+        echo "<h3>" . $data['category'] ."</h3>";
+        echo "<h3> " . $data['abilities'] . "</h3>";
+        echo "<p>" . $data['height'] ."</h4>";
+        echo "<p>" . $data['weight'] ."</h4>";
+        echo "<p> " . $data['gender'] . "</p>";
 
-            echo "<a href='information.php'>";
-            echo "<img src='./fotos/" . $data['photo'] . "' width='300' />";
-            echo "</a>";
-    
-
-          
       }
     ?>
     
-    </div>
+</div>
     
 
 <div class="footer">
