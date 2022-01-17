@@ -37,12 +37,13 @@
         echo "<h2>". $data['entry'] . "</h2>";
         echo "<h1>" . $data['name'] ."</h1>";
         echo "<img src='./fotos/" . $data['photo'] . "' width='300' />";
-        echo "<h3> " . $data['type'] . "</h3>";
-        echo "<h3>" . $data['category'] ."</h3>";
-        echo "<h3> " . $data['abilities'] . "</h3>";
-        echo "<p>" . $data['height'] ."</h4>";
-        echo "<p>" . $data['weight'] ."</h4>";
-        echo "<p> " . $data['gender'] . "</p>";
+        echo "<p> Type: " . $data['type'] . "</p>";
+        echo "<p> Weakness: " . $data['weakness'] . "</p>";
+        echo "<p> Category: " . $data['category'] ."</p>";
+        echo "<p> Abilities: " . $data['abilities'] . "</p>";
+        echo "<p> Height: " . $data['height'] ."</p>";
+        echo "<p> Weight: " . $data['weight'] ."</p>";
+        echo "<p> Gender: " . $data['gender'] . "</p>";
 
       }
     ?>
