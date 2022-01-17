@@ -47,5 +47,6 @@ body {
     width: auto;
     height: auto;
     padding: 10px;
-    margin: 0 0 30px 150px;
+    margin: 30px 150px 30px 150px;
+    column-count: 3;
 }
