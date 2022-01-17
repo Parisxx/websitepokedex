@@ -39,3 +39,13 @@ body {
     font-family: 'Pokemon'; 
     src: url('./fonts/chequered-ink_pocket-monk/Pocket\ Monk.otf'); 
 }
+
+
+
+.pokemon {
+    background-color: rgb(247, 247, 247);
+    width: auto;
+    height: auto;
+    padding: 10px;
+    margin: 0 0 30px 150px;
+}
