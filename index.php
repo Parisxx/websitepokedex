@@ -1,13 +1,14 @@
 <?php
-	if (!empty($_SERVER['HTTPS']) && ('on' == $_SERVER['HTTPS'])) {
-		$uri = 'https://';
-	} else {
-		$uri = 'http://';
-	}
-	$uri .= $_SERVER['HTTP_HOST'];
-	header('Location: '.$uri.'/dashboard/');
-	exit;
+   session_start();
+   require_once("db_connection.php");
+   $pdo = connect();
+ 
+
+  $stmt = $pdo->query("SELECT * FROM pokedex");
+
+
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
