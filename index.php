@@ -4,7 +4,7 @@
    $pdo = connect();
  
 
-  $stmt = $pdo->query("SELECT * FROM pokedex");
+  $stmt = $pdo->query("SELECT * FROM pokemon");
 
 
 ?>
@@ -18,8 +18,19 @@
     <title>Pokedex</title>
     <link rel="stylesheet" href="styles.css">
 
+    <link rel="icon" href="./fotos/pokeball.png">
+
 </head>
 <body>
+<div class="header">
+    <img src="./fotos/pokeball.png"  class="pokeball" alt="pokeball">
+      <h1 id="headertext">Pokedex</h1> 
+     </div>
+    <p> Ivysaur
     
+
+<div class="footer">
+  <p> @copyright2022
+</div>
 </body>
 </html>

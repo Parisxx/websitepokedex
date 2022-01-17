@@ -1,3 +1,41 @@
 body {
+    background: url(./fotos/background2.png);
+    font-family: 'Pokemon';
+}
+
+.header {
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 25px;
+    background: url(./fotos/background.png);
+  }
+  
+
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    background: url(./fotos/background.png);
+  }
+
+.pokeball {
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin-left: 500px;
+    float: left;
     
+}
+
+#headertext {
+    text-align: center;
+    margin-right: 600px;
+}
+
+@font-face {
+    font-family: 'Pokemon'; 
+    src: url('./fonts/chequered-ink_pocket-monk/Pocket\ Monk.otf'); 
 }
