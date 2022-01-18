@@ -62,4 +62,34 @@ body {
     display: table;
     clear: both;
   }
+
+
+.information1 {
+  float: left;
+ padding: 20px;
+}
   
+.information2 {
+  padding: 20px;
+  margin-right:388px;
+
+  margin-top: 20px;
+  font-size: 20px;
+}
+  
+.information3 {
+  padding: 20px;
+  margin-right:495px;
+  font-size: 20px;
+}
+  
+
+
+.evolution {
+ float: left;
+ margin-left: 450px;
+}
+
+.arrow {
+  margin-bottom: 50px;
+}
