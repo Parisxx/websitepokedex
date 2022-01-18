@@ -41,8 +41,11 @@
             echo "<h1>" . $data['name'] ."</h4>";
             echo "<h3> " . $data['type'] . "</h3>";
 
-            echo "<a href='information.php'>";
+            echo "<a href='information.php?id=" . $data['id'] ."'>";
             echo "<img src='./fotos/" . $data['photo'] . "' width='300' />";
+            #echo "<form action='information.php' method='GET'>";
+            #echo " <input type='image' src='./fotos/" . $data['photo'] . "' name='pokemon_id' width='300'  value='" . $data['id'] . "'/>";
+            #echo "</form>";
             echo "</a>"; 
             echo "<br>";
             echo "<br>";

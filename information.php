@@ -4,7 +4,20 @@
    $pdo = connect();
  
 
-  $stmt = $pdo->query("SELECT * FROM pokemon");
+  #$stmt = $pdo->query("SELECT * FROM pokemon");
+
+
+
+  if($_SERVER['REQUEST_METHOD'] == "GET")
+  {
+  
+    $id = $_GET['id'];
+
+    $pdoQuery = "SELECT * FROM pokemon WHERE id =" . $id;
+
+    $stmt = $pdo->query($pdoQuery);
+
+  } 
 
 
 ?>
