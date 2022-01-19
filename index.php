@@ -40,7 +40,13 @@
              echo "<div class='column2'>";
                  echo "<h2>". $data['entry'] . "</h2>";
                  echo "<h1>" . $data['name'] ."</h4>";
-                 echo "<h3> " . $data['type'] . "</h3>";
+
+                 echo "<a href='type.php?id='>";
+                 echo "<button id='type1'style='background-color:" . $data['color1'] .";' type='button'>" . $data['type1']. " </button>";
+                 echo "<button id='type1' style='background-color:" . $data['color2'] .";' type='button'>" . $data['type2']. " </button>";
+                 echo "</a>";
+
+                 #echo "<h3> " . $data['type1']. " " . $data['type2'] . "</h3>";
                  echo "<a href='information.php?id=" . $data['id'] ."'>";
                  echo "<img src='./fotos/" . $data['photo'] . "' width='300' />";
                  echo "</a>"; 

@@ -83,6 +83,7 @@ body {
   font-size: 20px;
 }
 
+
 .evolution {
  float: left;
  margin-left: 450px;
@@ -93,8 +94,24 @@ body {
   margin-bottom: 50px;
 }
 
-.description {
+.description1 {
   float: right;
   margin-right: 750px;
   width: 400px;
+}
+
+
+
+#type1 {
+  color: white;
+  border: none;
+  font-size: 18px;
+}
+
+
+
+#type2 {
+color: white;
+border: none;
+ font-size: 18px;
 }

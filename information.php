@@ -52,7 +52,13 @@
         echo "<div class='information'>";
           echo "<br>";
           echo "<br>";
-          echo "<p> Type: " . $data['type'] . "</p>";
+
+          echo "<a href='type.php?id='>";
+          echo "<button id='type2'style='background-color:" . $data['color1'] .";' type='button'>" . $data['type1']. " </button>";
+          echo "<button id='type2' style='background-color:" . $data['color2'] .";' type='button'>" . $data['type2']. " </button>";
+          echo "</a>";
+
+          #echo "<p> Type: " . $data['type'] . "</p>";
           echo "<p> Weakness: " . $data['weakness'] . "</p>";
           echo "<p> Category: " . $data['category'] ."</p>";
           echo "<p> Abilities: " . $data['abilities'] . "</p>";
@@ -63,8 +69,8 @@
           echo "<p> Gender: " . $data['gender'] . "</p>";
         echo "</div>";
 
-        echo "<div class='description'>";
-            echo "<p>" . $data['description'] . "</p>";
+        echo "<div class='description1'>";
+            echo "<p>" . $data['description1'] . "</p>";
        echo "</div>";
 
        echo "<div class='evolution'>";
