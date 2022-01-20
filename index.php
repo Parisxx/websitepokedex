@@ -49,12 +49,12 @@
 <li><a id='grass' href="grass.php">Grass</a></li>
 <li><a id='water' href="water.php">Water</a></li>
 <li><a id='fire'href="fire.php">Fire</a></li>
-<li><a id='normal' href="default.asp">Normal</a></li>
+<li><a id='normal' href="normal.php">Normal</a></li>
 <li><a id='poison'href="poison.php">Poison</a></li>
 <li><a id='flying' href="flying.php">Flying</a></li>
 <li><a id='electric' href="electric.php">Electric</a></li>
 <li><a id='ice' href="ice.php">Ice</a></li>
-<li><a id='fight' href="fight.php">Fight</a></li>
+<li><a id='fight' href="fight.php">Fighting</a></li>
 <li><a id='ground' href="ground.php">Ground</a></li>
 <li><a id='psychic' href="psychic.php">Psychic</a></li>
 <li><a id='bug' href="bug.php">Bug</a></li>
