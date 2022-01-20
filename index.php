@@ -28,7 +28,23 @@
     </a>
       <h1 id="headertext">Pokedex</h1> 
 </div>
+<html>
 
+<head>
+
+<title>Internet</title>
+</head>
+
+<body style="background-color:yellow;">
+
+
+
+<input type="text" name="q" placeholder="Search Google" cols="4" rows="5">
+        <input type="submit" value="search">
+<form action="file:///C:/Users/User/Desktop/Untitled1.htm" method="GET">
+        
+
+</html>
 <div class='types'>
 <li><a id='grass' href="grass.php">Grass</a></li>
 <li><a id='water' href="water.php">Water</a></li>
