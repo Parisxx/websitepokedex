@@ -310,4 +310,11 @@ body {
 
 .titel {
   text-align: center;
+  display: inline-block;
+  margin-left: 500px;
+}
+.titel2 {
+  text-align: center;
+  color: #afafaf;
+  display: inline-block;
 }
