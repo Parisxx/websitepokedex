@@ -53,10 +53,9 @@
           echo "<br>";
           echo "<br>";
 
-          echo "<a href='type.php?id=" . $data['id'] ."'>";
-              echo "<button id='type'style='background-color:" . $data['color1'] .";' type='button'>" . $data['type1']. " </button>";
-              echo "<button id='type' style='background-color:" . $data['color2'] .";' type='button'>" . $data['type2']. " </button>";
-          echo "</a>";
+          echo "<button id='type'style='background-color:" . $data['color1'] .";' type='button'>" . $data['type1']. " </button>";
+          echo "<button id='type' style='background-color:" . $data['color2'] .";' type='button'>" . $data['type2']. " </button>";
+
 
           #echo "<p> Type: " . $data['type'] . "</p>";
           echo "<p> Weakness: " . $data['weakness'] . "</p>";
