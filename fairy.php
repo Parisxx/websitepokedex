@@ -32,12 +32,14 @@
 
 <div class="pokemon">
 
-<h1 class="titel"> Ground </h1> 
+<h1 class="titel"> Fairy </h1> 
 <h1 class="titel2"> (Type) </h1>
 
 
-<p> Ground is one of the strongest types offensively: it is super-effective against five other types (as is Fighting) and Earthquake is one of the strongest moves in the game with power and accuracy both 100. Unfortunately,
-     many Ground type Pokémon are dual Rock types, lumbering them with 4x Grass and Water disadvantages.
+<p> The Fairy type was introduced in Generation 6 - the first new type for more than 12 years! Its main
+     intention was to balance the type chart by reducing the power of dragons, while also giving an offensive boost to the Poison 
+     and Steel types. Several old Pokémon were retyped and new Pokémon introduced. There are only around 60 Fairy type Pokémon
+     (depending on how you count alternate forms or mega evolutions), in total slightly above Ice.
 
 </div>
 

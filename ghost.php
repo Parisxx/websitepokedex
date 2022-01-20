@@ -32,12 +32,17 @@
 
 <div class="pokemon">
 
-<h1 class="titel"> Ground </h1> 
+<h1 class="titel"> Ghost </h1> 
 <h1 class="titel2"> (Type) </h1>
 
 
-<p> Ground is one of the strongest types offensively: it is super-effective against five other types (as is Fighting) and Earthquake is one of the strongest moves in the game with power and accuracy both 100. Unfortunately,
-     many Ground type Pokémon are dual Rock types, lumbering them with 4x Grass and Water disadvantages.
+<p> Ghosts are rare Pokémon, and the only type to have two immunities. In total there are just 34 Ghost type Pokémon
+     (not including Megas/Formes),
+     slightly above Ice.
+
+In the first generation, Ghost moves has
+ no effect on Psychic Pokémon, however, it was later changed to be super-effective.
+  When paired with the Dark type it was the only type combination to have no weaknesses prior to Gen 6.
 
 </div>
 

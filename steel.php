@@ -32,13 +32,14 @@
 
 <div class="pokemon">
 
-<h1 class="titel"> Ground </h1> 
+<h1 class="titel"> Steel </h1> 
 <h1 class="titel2"> (Type) </h1>
 
 
-<p> Ground is one of the strongest types offensively: it is super-effective against five other types (as is Fighting) and Earthquake is one of the strongest moves in the game with power and accuracy both 100. Unfortunately,
-     many Ground type Pokémon are dual Rock types, lumbering them with 4x Grass and Water disadvantages.
-
+<p> The Steel type was introduced in the second generation of Pokémon games. It is the strongest type defensively, with 10
+     types being not very effective against it and the Poison type having no effect. From Pokémon X/Y onwards, it lost its Ghost
+      and Dark resistance,
+     those types now dealing neutral damage. The Steel type also has the highest average Defense stat in the games.
 </div>
 
 <div class="footer">

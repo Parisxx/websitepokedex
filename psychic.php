@@ -32,12 +32,15 @@
 
 <div class="pokemon">
 
-<h1 class="titel"> Ground </h1> 
+<h1 class="titel"> Psychic </h1> 
 <h1 class="titel2"> (Type) </h1>
 
 
-<p> Ground is one of the strongest types offensively: it is super-effective against five other types (as is Fighting) and Earthquake is one of the strongest moves in the game with power and accuracy both 100. Unfortunately,
-     many Ground type Pokémon are dual Rock types, lumbering them with 4x Grass and Water disadvantages.
+<p> The Psychic type has few outright strengths, however, it also has
+     few weaknesses. In the first generation it ended up being massively overpowered, mainly due to a complete lack 
+     of powerful Bug moves, its only weakness. Furthermore, a mistake in the game meant that Ghost-type moves had no effect 
+     on Psychic (although this only affected the low-powered Lick). Generation
+     2 rectified the situation with the addition of the Dark type along with better Pokémon and moves of all types.
 
 </div>
 
