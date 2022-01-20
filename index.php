@@ -45,6 +45,9 @@
 <li><a id='rock' href="rock.php">Rock</a></li>
 <li><a id='ghost' href="ghost.php">Ghost</a></li>
 <li><a id='dragon' href="dragon.php">Dragon</a></li>
+<li><a id='steel' href="steel.php">Steel</a></li>
+<li><a id='dark' href="dark.php">Dark</a></li>
+<li><a id='fairy' href="fairy.php">Fairy</a></li>
 
 </div>
 

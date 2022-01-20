@@ -276,3 +276,32 @@ body {
   display: block;
   width: 55px;
 }
+
+#steel {
+  background-color: rgb(173, 173, 198);
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 5px;
+  display: block;
+  width: 55px;
+}
+
+
+#dark {
+  background-color: rgb(115, 90, 74);
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 5px;
+  display: block;
+  width: 55px;
+}
+
+
+#fairy {
+  background-color: rgb(240, 176, 240);
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 5px;
+  display: block;
+  width: 55px;
+}
