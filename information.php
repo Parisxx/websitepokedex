@@ -53,9 +53,9 @@
           echo "<br>";
           echo "<br>";
 
-          echo "<a href='type.php?id='>";
-          echo "<button id='type2'style='background-color:" . $data['color1'] .";' type='button'>" . $data['type1']. " </button>";
-          echo "<button id='type2' style='background-color:" . $data['color2'] .";' type='button'>" . $data['type2']. " </button>";
+          echo "<a href='type.php?id=" . $data['id'] ."'>";
+              echo "<button id='type'style='background-color:" . $data['color1'] .";' type='button'>" . $data['type1']. " </button>";
+              echo "<button id='type' style='background-color:" . $data['color2'] .";' type='button'>" . $data['type2']. " </button>";
           echo "</a>";
 
           #echo "<p> Type: " . $data['type'] . "</p>";
@@ -70,7 +70,7 @@
         echo "</div>";
 
         echo "<div class='description1'>";
-            echo "<p>" . $data['description1'] . "</p>";
+            echo "<p>" . $data['description'] . "</p>";
        echo "</div>";
 
        echo "<div class='evolution'>";

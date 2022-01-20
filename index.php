@@ -27,7 +27,26 @@
       <img src="./fotos/pokeball.png"  class="pokeball" alt="pokeball">
     </a>
       <h1 id="headertext">Pokedex</h1> 
-     </div>
+</div>
+
+<div class='types'>
+<li><a id='grass' href="grass.php">Grass</a></li>
+<li><a id='water' href="water.php">Water</a></li>
+<li><a id='fire'href="fire.php">Fire</a></li>
+<li><a id='normal' href="default.asp">Normal</a></li>
+<li><a id='poison'href="poison.php">Poison</a></li>
+<li><a id='flying' href="flying.php">Flying</a></li>
+<li><a id='electric' href="electric.php">Electric</a></li>
+<li><a id='ice' href="ice.php">Ice</a></li>
+<li><a id='fight' href="fight.php">Fight</a></li>
+<li><a id='ground' href="ground.php">Ground</a></li>
+<li><a id='psychic' href="psychic.php">Psychic</a></li>
+<li><a id='bug' href="bug.php">Bug</a></li>
+<li><a id='rock' href="rock.php">Rock</a></li>
+<li><a id='ghost' href="ghost.php">Ghost</a></li>
+<li><a id='dragon' href="dragon.php">Dragon</a></li>
+
+</div>
 
 <div class="pokemon">
 
@@ -38,22 +57,26 @@
            echo "<div class='column'>";
              echo "<br>";
              echo "<div class='column2'>";
+
+              echo "<a class='link' href='information.php?id=" . $data['id'] ."'>";
                  echo "<h2>". $data['entry'] . "</h2>";
                  echo "<h1>" . $data['name'] ."</h4>";
 
-                 echo "<a href='type.php?id='>";
-                 echo "<button id='type1'style='background-color:" . $data['color1'] .";' type='button'>" . $data['type1']. " </button>";
-                 echo "<button id='type1' style='background-color:" . $data['color2'] .";' type='button'>" . $data['type2']. " </button>";
-                 echo "</a>";
 
-                 #echo "<h3> " . $data['type1']. " " . $data['type2'] . "</h3>";
-                 echo "<a href='information.php?id=" . $data['id'] ."'>";
+                 echo "<button id='type'style='background-color:" . $data['color1'] .";' type='button'>" . $data['type1']. " </button>";
+                 echo "<button id='type' style='background-color:" . $data['color2'] .";' type='button'>" . $data['type2']. " </button>";
+ 
+
+                 #echo "<a href='information.php?id=" . $data['id'] ."'>";
                  echo "<img src='./fotos/" . $data['photo'] . "' width='300' />";
-                 echo "</a>"; 
+                 #echo "</a>"; 
+                echo "</a>";
               echo "</div>";
               echo "<br>";
               echo "<br>";
             echo "</div>";
+
+
 
       }
     ?>
