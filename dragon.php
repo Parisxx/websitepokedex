@@ -32,13 +32,16 @@
 
 <div class="pokemon">
 
-<h1 class="titel"> Ground </h1> 
+<h1 class="titel"> Dragon </h1> 
 <h1 class="titel2"> (Type) </h1>
 
 
-<p> Ground is one of the strongest types offensively: it is super-effective against five other types (as is Fighting) and Earthquake is one of the strongest moves in the game with power and accuracy both 100. Unfortunately,
-     many Ground type Pokémon are dual Rock types, lumbering them with 4x Grass and Water disadvantages.
+<p> Dragons are among the most elusive and powerful of all Pokémon. Nine legendary Pokémon are part Dragon type and four have 
+    legendary-like stats.
 
+They are notoriously difficult to train due to requiring more EXP points per level than most non-legendary Pokémon,
+ and the fact they evolve much later and thus are in their weaker forms for longer.
+ Interestingly, many final-evolution Dragon types have a 4x weakness to the Ice type.
 </div>
 
 <div class="footer">

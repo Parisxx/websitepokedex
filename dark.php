@@ -32,12 +32,13 @@
 
 <div class="pokemon">
 
-<h1 class="titel"> Ground </h1> 
+<h1 class="titel"> Dark </h1> 
 <h1 class="titel2"> (Type) </h1>
 
 
-<p> Ground is one of the strongest types offensively: it is super-effective against five other types (as is Fighting) and Earthquake is one of the strongest moves in the game with power and accuracy both 100. Unfortunately,
-     many Ground type Pokémon are dual Rock types, lumbering them with 4x Grass and Water disadvantages.
+<p> The Dark type was introduced in the second generation of Pokémon games as a measure to balance the types.
+     In particular, its resistance to Psychic cut down that type's advantage by a long way.
+     When paired with the Ghost type it was the only type combination to have no weaknesses prior to Gen 6.
 
 </div>
 

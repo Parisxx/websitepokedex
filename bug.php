@@ -32,13 +32,13 @@
 
 <div class="pokemon">
 
-<h1 class="titel"> Ground </h1> 
+<h1 class="titel"> Bug </h1> 
 <h1 class="titel2"> (Type) </h1>
 
 
-<p> Ground is one of the strongest types offensively: it is super-effective against five other types (as is Fighting) and Earthquake is one of the strongest moves in the game with power and accuracy both 100. Unfortunately,
-     many Ground type Pokémon are dual Rock types, lumbering them with 4x Grass and Water disadvantages.
-
+<p> Most Bug Pokémon grow quickly and evolve sooner than other types. As a result, they are often very weak.
+     In Generation I, bugs were almost useless since the few Bug type moves available were very weak.
+     The situation improved in later games with better moves and an advantage against the Dark type.
 </div>
 
 <div class="footer">
