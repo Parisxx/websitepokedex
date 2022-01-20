@@ -13,6 +13,18 @@ body {
   
 
 
+  .titel {
+    text-align: center;
+    display: inline-block;
+    margin-left: 500px;
+  }
+  .titel2 {
+    text-align: center;
+    color: #afafaf;
+    display: inline-block;
+  }
+
+
 .footer {
     padding: 20px;
     text-align: center;
@@ -306,15 +318,93 @@ body {
   width: 55px;
 }
 
+-------------------------------
+
+#grass:hover {
+  padding: 10px;
+}
 
 
-.titel {
-  text-align: center;
-  display: inline-block;
-  margin-left: 500px;
+#water:hover {
+  padding: 10px;
 }
-.titel2 {
-  text-align: center;
-  color: #afafaf;
-  display: inline-block;
+
+
+#fire:hover {
+  padding: 10px;
 }
+
+
+#normal:hover {
+  padding: 10px;
+}
+
+
+#ice:hover {
+  padding: 10px;
+}
+
+
+#electric:hover {
+  padding: 10px;
+}
+
+
+#poison:hover {
+  padding: 10px;
+}
+
+
+#flying:hover {
+  padding: 10px;
+}
+
+
+#fight:hover {
+  padding: 10px;
+}
+
+
+
+#bug:hover {
+  padding: 10px;
+}
+
+
+#ground:hover {
+  padding: 10px;
+}
+
+
+#psychic:hover {
+  padding: 10px;
+}
+
+#rock:hover {
+  padding: 10px;
+}
+
+
+#ghost:hover {
+  padding: 10px;
+}
+
+
+#dragon:hover {
+  padding: 10px;
+}
+
+#steel:hover {
+  padding: 10px;
+}
+
+
+#dark:hover {
+  padding: 10px;
+}
+
+
+#fairy:hover {
+  padding: 10px;
+}
+
