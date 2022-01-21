@@ -41,7 +41,7 @@
     <h1 id="headertext">Pokedex</h1> 
 </div>
 
-<!-- END HEADER-->echo
+<!-- END HEADER-->
 
 <!-- START POKEMON INFORMATION-->
 
