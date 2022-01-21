@@ -31,12 +31,19 @@
 
 </head>
 <body>
+
+<!-- START HEADER-->
+
 <div class="header">
    <a href="index.php">
       <img src="./fotos/pokeball.png"  class="pokeball" alt="pokeball">
     </a>
     <h1 id="headertext">Pokedex</h1> 
 </div>
+
+<!-- END HEADER-->echo
+
+<!-- START POKEMON INFORMATION-->
 
 <div class="pokemon">
 
@@ -52,12 +59,8 @@
         echo "<div class='information'>";
           echo "<br>";
           echo "<br>";
-
           echo "<button id='type'style='background-color:" . $data['color1'] .";' type='button'>" . $data['type1']. " </button>";
           echo "<button id='type' style='background-color:" . $data['color2'] .";' type='button'>" . $data['type2']. " </button>";
-
-
-          #echo "<p> Type: " . $data['type'] . "</p>";
           echo "<p> Weakness: " . $data['weakness'] . "</p>";
           echo "<p> Category: " . $data['category'] ."</p>";
           echo "<p> Abilities: " . $data['abilities'] . "</p>";
@@ -69,8 +72,8 @@
         echo "</div>";
 
         echo "<div class='description1'>";
-            echo "<p>" . $data['description'] . "</p>";
-       echo "</div>";
+         echo "<p>" . $data['description'] . "</p>";
+        echo "</div>";
 
        echo "<div class='evolution'>";
           echo "<h2> Evolutions</h2>";
@@ -85,11 +88,18 @@
     ?>
     
 </div>
-    
+
+
+<!-- END POKEMON INFORMATION-->
+
+<!-- START FOOTER-->
 
 <div class="footer">
-    <p> Paris Stassen, Robin Reinders, Vigo Lutke Schipholt
-    <p> @copyright2022
+ <p> Paris Stassen, Robin Reinders, Vigo Lutke Schipholt
+ <p> @copyright2022
 </div>
+
+<!-- END FOOTER-->
+
 </body>
 </html>

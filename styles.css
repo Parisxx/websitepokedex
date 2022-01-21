@@ -3,6 +3,11 @@ body {
     font-family: 'Pokemon';
 }
 
+
+button {
+  font-family: 'Pokemon';
+}
+
 .header {
     padding: 20px;
     text-align: center;
@@ -59,7 +64,7 @@ body {
     width: auto;
     height: auto;
     padding: 10px;
-    margin: 30px 150px 30px 150px;
+    margin: 40px 150px 30px 150px;
 }
 
 
@@ -141,6 +146,7 @@ body {
 
 
 #grass {
+  margin-top: 12px;
   background-color: rgb(123,206,82);
   color: rgb(255, 255, 255);
   text-decoration: none;
@@ -318,7 +324,7 @@ body {
   width: 55px;
 }
 
--------------------------------
+
 
 #grass:hover {
   padding: 10px;
@@ -408,3 +414,26 @@ body {
   padding: 10px;
 }
 
+.search_box {
+  float: right;
+  margin-right: 200px;
+  margin-top: 10px;
+
+}
+
+#submit_form {
+  background-color: rgb(238, 65, 53);
+  color: #ffffff;
+  font-family: pokemon;
+  border: 1px solid rgb(238, 65, 53);  
+}
+
+
+
+#search {
+  border: 1px solid #afafaf;
+  border-radius: 5px;
+  height: 20px;
+  width: 100%;
+  background-color: rgb(247, 247, 247);
+}
