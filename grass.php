@@ -40,6 +40,8 @@ which constitute the three starter Pokémon. This creates a simple triangle to e
 Grass is one of the weakest types statistically, with 5 defensive weaknesses and 7 types that are resistant to Grass moves. 
 Furthermore, three type combos paired with Grass have 7 weaknesses: Grass/Psychic, Grass/Ice, and Grass/Dark.
 
+
+
     
 </div>
 
