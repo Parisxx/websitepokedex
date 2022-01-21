@@ -416,7 +416,7 @@ button {
 
 .search_box {
   float: right;
-  margin-right: 200px;
+  margin-right: 240px;
   margin-top: 10px;
 
 }
@@ -426,6 +426,10 @@ button {
   color: #ffffff;
   font-family: pokemon;
   border: 1px solid rgb(238, 65, 53);  
+  font-size: 18px;
+  float: right;
+  margin-right: -80px;
+  margin-top: -25px;
 }
 
 
