@@ -29,6 +29,12 @@ button {
     display: inline-block;
   }
 
+.typeimg {
+  float: right;
+  margin-right: 580px;
+
+}
+
 
 .footer {
     padding: 20px;
@@ -74,6 +80,7 @@ button {
     width: 340px;
 
   }
+
 
 
 .column2 {
