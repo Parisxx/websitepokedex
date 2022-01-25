@@ -31,6 +31,7 @@
 
 
 <div class="pokemon">
+<img class="typeimg" src="./fotos/GrassType.png" width="100px">
 <h1 class="titel"> Grass </h1> 
 <h1 class="titel2"> (Type) </h1>
 
@@ -39,7 +40,6 @@
 which constitute the three starter Pokémon. This creates a simple triangle to explain the type concept easily to new players.
 Grass is one of the weakest types statistically, with 5 defensive weaknesses and 7 types that are resistant to Grass moves. 
 Furthermore, three type combos paired with Grass have 7 weaknesses: Grass/Psychic, Grass/Ice, and Grass/Dark.
-
     
 </div>
 
