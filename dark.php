@@ -31,7 +31,7 @@
 
 
 <div class="pokemon">
-
+<img class="typeimg" src="./fotos/DarkType.png" width="100px">
 <h1 class="titel"> Dark </h1> 
 <h1 class="titel2"> (Type) </h1>
 

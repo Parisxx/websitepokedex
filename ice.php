@@ -31,6 +31,7 @@
 
 
 <div class="pokemon">
+<img class="typeimg" src="./fotos/IceType.png" width="100px">
 <h1 class="titel"> Ice </h1> 
 <h1 class="titel2"> (Type) </h1>
 

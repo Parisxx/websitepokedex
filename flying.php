@@ -31,6 +31,7 @@
 
 
 <div class="pokemon">
+<img class="typeimg" src="./fotos/FlyingType.png" width="100px">
 <h1 class="titel"> Flying </h1> 
 <h1 class="titel2"> (Type) </h1>
 

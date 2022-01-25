@@ -31,6 +31,7 @@
 
 
 <div class="pokemon">
+<img class="typeimg" src="./fotos/FightingType.png" width="100px">
 <h1 class="titel"> Fighting </h1> 
 <h1 class="titel2"> (Type) </h1>
 

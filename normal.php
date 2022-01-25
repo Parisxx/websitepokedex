@@ -31,6 +31,7 @@
 
 
 <div class="pokemon">
+  <img class="typeimg" src="./fotos/NormalType.png" width="100px">
 <h1 class="titel"> Normal </h1> 
 <h1 class="titel2"> (Type) </h1>
 
