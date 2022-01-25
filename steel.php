@@ -29,6 +29,26 @@
       <h1 id="headertext">Pokedex</h1> 
 </div>
 
+<div class='types'>
+  <li><a id='grass' href="grass.php">Grass</a></li>
+  <li><a id='water' href="water.php">Water</a></li>
+  <li><a id='fire'href="fire.php">Fire</a></li>
+  <li><a id='normal' href="normal.php">Normal</a></li>
+  <li><a id='poison'href="poison.php">Poison</a></li>
+  <li><a id='flying' href="flying.php">Flying</a></li>
+  <li><a id='electric' href="electric.php">Electric</a></li>
+  <li><a id='ice' href="ice.php">Ice</a></li>
+  <li><a id='fight' href="fight.php">Fighting</a></li>
+  <li><a id='ground' href="ground.php">Ground</a></li>
+  <li><a id='psychic' href="psychic.php">Psychic</a></li>
+  <li><a id='bug' href="bug.php">Bug</a></li>
+  <li><a id='rock' href="rock.php">Rock</a></li>
+  <li><a id='ghost' href="ghost.php">Ghost</a></li>
+  <li><a id='dragon' href="dragon.php">Dragon</a></li>
+  <li><a id='steel' href="steel.php">Steel</a></li>
+  <li><a id='dark' href="dark.php">Dark</a></li>
+  <li><a id='fairy' href="fairy.php">Fairy</a></li>
+</div>
 
 <div class="pokemon">
 <img class="typeimg" src="./fotos/SteelType.png" width="100px">
@@ -36,7 +56,7 @@
 <h1 class="titel2"> (Type) </h1>
 
 
-<p> The Steel type was introduced in the second generation of Pokémon games. It is the strongest type defensively, with 10
+<p class="typedescription"> The Steel type was introduced in the second generation of Pokémon games. It is the strongest type defensively, with 10
      types being not very effective against it and the Poison type having no effect. From Pokémon X/Y onwards, it lost its Ghost
       and Dark resistance,
      those types now dealing neutral damage. The Steel type also has the highest average Defense stat in the games.

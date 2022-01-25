@@ -31,8 +31,15 @@ button {
 
 .typeimg {
   float: right;
-  margin-right: 570px;
+  margin-right: 565px;
+  margin-top: 10px;
 
+}
+
+.typedescription {
+  width: 600px;
+  text-align: center;
+  margin-left: 250px;
 }
 
 

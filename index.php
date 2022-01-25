@@ -52,10 +52,6 @@
 
 <!--SEARCHBAR END-->
 
-<!---
-<input type="text" name="q" placeholder="Search" cols="4" rows="5">
-        <input type="submit" value="search">
-<form action="index.php" method="GET"> -->
         
 <!--TYPES START-->
 
